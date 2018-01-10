@@ -61,7 +61,6 @@
         <!-- Including the HotlineSDK(which is included as such) as a framework -->
         <!-- The custom parameter makes Cordova look for the gradle file in a relative location rather than the Android SDK -->
         <framework src="src/android/Freshchat/build.gradle" custom="true" type="gradleReference" />
-        <source-file src="src/android/xml/provider_paths.xml" target-dir="res/xml" />
         
     </platform>
 
